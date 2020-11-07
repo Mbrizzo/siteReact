@@ -12,8 +12,16 @@ const Paralax = (props) => {
       />
       <div className="section white">
         <div className="row container">
-          <h2 className="header">Projeto React</h2>
-          <h3 className="grey-text text-darken-3 lighten-3">
+          <h2
+            className="header"
+            style={{ color: '#1a7fbd', fontWeight: 'bolder' }}
+          >
+            Projeto React
+          </h2>
+          <h3
+            className="grey-text text-darken-3 lighten-3"
+            style={{ color: '', fontWeight: 'bolder' }}
+          >
             Oferecendo as ferramentas e dicas que professores e famílias
             precisam para ajudar os alunos a continuar aprendendo.
           </h3>

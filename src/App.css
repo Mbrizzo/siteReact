@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
+
+
 .App {
   text-align: center;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,9 +17,18 @@
   justify-content: left;
 }
 
-.decks {
+
+.cards {
+  display: flex;
+}
+
+
+.fabio {
+  width: 50px;
   
 }
+
+
 
 
 

@@ -4,14 +4,16 @@ import { Card, Button } from 'react-bootstrap';
 const Deck = (props) => {
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src="https://i.ibb.co/qpJJJ4f/al.png" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>AhaSlides</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          O AhaSlides é ótimo para salas de aula, reuniões, workshops e qualquer
+          evento que se beneficie da interação do público. Você pode adicionar
+          enquetes, questionários divertidos, nuvens de palavras e sessões de
+          perguntas e respostas envolventes à sua apresentação.
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">Saiba Mais</Button>
       </Card.Body>
     </Card>
   );
