@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
-//import './components/navBar';
+import 'materialize-css/dist/css/materialize.min.css';
+import React from 'react';
+import NavBar from './components/NavBar';
+import UncontrolledLottie from './components/UncontrolledLottie';
+import Parallax from './components/Parallax';
+import Cards from './components/Aviso';
+import Deck from './components/deck';
+import Quote from './components/Quote';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      {<br></br>}
+      <section className="logo">
+        <UncontrolledLottie />
+      </section>
+      {<br></br>}
+      <Parallax />
+      {<br></br>}
+      <Cards />
+      <Quote />
+      <Deck className="decks" />
     </div>
   );
 }
