@@ -16,7 +16,7 @@ class Erro404 extends Component {
 
     return (
       <div>
-        <Lottie options={defaultOptions} height={300} width={300} />
+        <Lottie options={defaultOptions} height={480} width={480} />
       </div>
     );
   }
