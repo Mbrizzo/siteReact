@@ -4,6 +4,7 @@ import { Navbar, Icon, NavItem } from 'react-materialize';
 const Nav = () => {
   return (
     <Navbar
+      className="black"
       alignLinks="right"
       fixed="true"
       brand={

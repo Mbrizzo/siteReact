@@ -18,7 +18,9 @@ const Home = () => {
         <Deck />
         <Kitchen />
       </section>
-      <Quote />
+      <section className="depoimentos">
+        <Quote />
+      </section>
     </div>
   );
 };

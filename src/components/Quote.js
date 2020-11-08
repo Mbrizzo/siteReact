@@ -24,6 +24,35 @@ const Quote = (props) => {
           />
         </blockquote>
       </Card.Body>
+      <Card.Body>
+        <blockquote className="blockquote mb-0">
+          <p>
+            {' '}
+            "Eu ressucitei apenas para dizer que: 'este site Non ecziste'!!!".{' '}
+          </p>
+          <footer className="blockquote-footer">
+            Padre <cite title="Source Title">Quevedo</cite>
+          </footer>
+          <Image
+            src="https://i.ibb.co/nR7mJMf/quevedo-transparente.png"
+            roundedCircle
+            className="fabio"
+          />
+        </blockquote>
+      </Card.Body>
+      <Card.Body>
+        <blockquote className="blockquote mb-0">
+          <p> "É o básico né". </p>
+          <footer className="blockquote-footer">
+            Aluno <cite title="Source Title">6º Período</cite>
+          </footer>
+          <Image
+            src="https://i.ibb.co/KhPdB2s/b-sico.png"
+            roundedCircle
+            className="fabio"
+          />
+        </blockquote>
+      </Card.Body>
     </Card>
   );
 };

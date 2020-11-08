@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route, Linnk } from 'react-router-dom';
 import 'materialize-css/dist/css/materialize.min.css';
 import React from 'react';
+import Fab from './components/Fab';
 import Home from './Home';
 import Sobre from './Sobre';
 import Header from './Header';
@@ -13,6 +14,7 @@ const App = () => {
     <BrowserRouter>
       <div className="App">
         <Header />
+        <Fab />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="sobre" element={<Sobre />} />
