@@ -28,6 +28,7 @@ const Nav = () => {
     >
       <NavItem href="sobre">Sobre</NavItem>
       <NavItem href="https://github.com/Mbrizzo/siteReact">Git</NavItem>
+      <NavItem href="contato">Contato</NavItem>
     </Navbar>
   );
 };
