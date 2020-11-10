@@ -1,11 +1,13 @@
 import React from 'react';
 import { Card, Col, Image } from 'react-bootstrap';
 
-const Quote = (props) => {
+const Quote = () => {
   return (
     <Card>
-      <Card.Header style={{ color: '', fontWeight: 'bolder' }}>
-        <h5> O que andam dizendo sobre nós </h5>
+      <Card.Header
+        style={{ color: '', fontWeight: 'bolder', backgroundColor: '#263238' }}
+      >
+        <h5 style={{ color: '#f5f5f5' }}> O que andam dizendo sobre nós </h5>
       </Card.Header>
       <Card.Body className="primeiroQuote">
         <blockquote className="blockquote mb-0">
@@ -42,14 +44,14 @@ const Quote = (props) => {
       </Card.Body>
       <Card.Body className="terceiroQuote">
         <blockquote className="blockquote mb-0">
-          <p> "É o básico né". </p>
+          <p> "É o básico né..." </p>
           <footer className="blockquote-footer">
             Aluno <cite title="Source Title">6º Período</cite>
           </footer>
           <Image
             src="https://i.ibb.co/KhPdB2s/b-sico.png"
             roundedCircle
-            className="joao"
+            className="fabio"
           />
         </blockquote>
       </Card.Body>
