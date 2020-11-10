@@ -1,4 +1,5 @@
 import React from 'react';
+import './Header.css'
 import { Navbar, Icon, NavItem } from 'react-materialize';
 
 const Nav = () => {
@@ -26,9 +27,9 @@ const Nav = () => {
         preventScrolling: true,
       }}
     >
-      <NavItem href="sobre">Sobre</NavItem>
-      <NavItem href="https://github.com/Mbrizzo/siteReact">Git</NavItem>
-      <NavItem href="contato">Contato</NavItem>
+      <NavItem id="navItem" href="sobre">Sobre</NavItem>
+      <NavItem id="navItem" href="https://github.com/Mbrizzo/siteReact">Git</NavItem>
+      <NavItem id="navItem" href="contato">Contato</NavItem>
     </Navbar>
   );
 };
