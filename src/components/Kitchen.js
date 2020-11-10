@@ -1,5 +1,4 @@
 import React from 'react';
-import './Kitchen.css'
 import { Card, Button, ListGroup, ListGroupItem } from 'react-bootstrap';
 
 const Kitchen = () => {
@@ -29,7 +28,7 @@ const Kitchen = () => {
       image: 'https://i.ibb.co/JyzYYMW/gotomeeting.png',
       title: 'GoToMeeting',
       text:
-        'GoToMeeting software de reunião on-line, compartilhamento de área de trabalho e videoconferência que permite ao usuário se encontrar com outros usuários de computador, clientes, clientes ou colegas através da Internet em tempo real.',
+        'GoToMeeting é um software de reunião on-line, compartilhamento de área de trabalho e videoconferência que permite ao usuário se encontrar com outros usuários de computador, clientes, clientes ou colegas através da Internet em tempo real.',
       list: '$$$',
     },
   ];

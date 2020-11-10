@@ -1,5 +1,8 @@
 import React from 'react';
 import { Footer } from 'react-materialize';
+import youtube from '../assets/ic_youtube.png';
+import facebook from '../assets/ic_facebook.png';
+import './Footer.css';
 
 const Deck = () => {
   return (
@@ -33,12 +36,13 @@ const Deck = () => {
       }
       moreLinks={
         <a className="grey-text text-lighten-4 right" href="#!">
-          More Links
+          <img src={youtube} alt="Alguma coisa" className="redesSociais" />
+          <img src={facebook} alt="Alguma coisa" className="redesSociais" />
         </a>
       }
     >
-      <h4 className="blue-text">Projeto React</h4>
-      <p className="red-text text-4">if (web3.prof == "fábio")</p>
+      <h4 className="footerTitle">Projeto React</h4>
+      <p className="web3">if (web3.prof == "fábio")</p>
     </Footer>
   );
 };
