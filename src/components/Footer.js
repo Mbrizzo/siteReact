@@ -10,22 +10,22 @@ const Deck = () => {
       links={
         <ul>
           <li>
-            <a className="grey-text text-lighten-3" href="ferramentas">
+            <a className="orange-text text-lighten-3" href="ferramentas">
               Ferramentas
             </a>
           </li>
           <li>
-            <a className="grey-text text-lighten-3" href="sobre">
+            <a className="orange-text text-lighten-3" href="sobre">
               Sobre
             </a>
           </li>
           <li>
-            <a className="grey-text text-lighten-3" href="contato">
+            <a className="orange-text text-lighten-3" href="contato">
               Contato
             </a>
           </li>
           <li>
-            <a className="grey-text text-lighten-3" href="#!">
+            <a className="orange-text text-lighten-3" href="#!">
               Git
             </a>
           </li>
@@ -37,8 +37,8 @@ const Deck = () => {
         </a>
       }
     >
-      <h5 className="white-text">Projeto React</h5>
-      <p className="grey-text text-lighten-4">if (web3.prof == "fábio")</p>
+      <h4 className="blue-text">Projeto React</h4>
+      <p className="red-text text-4">if (web3.prof == "fábio")</p>
     </Footer>
   );
 };
