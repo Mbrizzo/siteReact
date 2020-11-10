@@ -16,12 +16,6 @@
   justify-content: left;
 }
 
-.header-parallax {
-  color: #1a7fbd;
-  font-weight: bolder;
-  text-align:center;
-}
-
 .cards {
   display: inline-flex;
   justify-content: space-between;

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Parallax } from 'react-materialize';
+import './Parallax.css';
 
 const Paralax = () => {
   return (
@@ -12,14 +13,11 @@ const Paralax = () => {
       />
       <div className="section white">
         <div className="row container">
-          <h2 className="header-parallax">Projeto React</h2>
-          <h3
-            className="grey-text text-darken-3 lighten-3"
-            style={{ color: '', fontWeight: 'bolder' }}
-          >
+          <h1 className="header-parallax">Projeto React</h1>
+          <h2 className="text-parallax">
             Oferecendo as ferramentas e dicas que professores e famílias
             precisam para ajudar os alunos a continuar aprendendo.
-          </h3>
+          </h2>
         </div>
       </div>
       <Parallax

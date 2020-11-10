@@ -8,9 +8,8 @@ import Home from './Home';
 import Sobre from './Sobre';
 import Header from './Header';
 import Err from './components/Err';
-//import Footer from './components/Footer';
+import Footer from './components/Footer';
 import Contato from './Contato';
-import FJumbotron from './components/FJumbotron';
 import Ferramentas from './Ferramentas';
 
 const App = () => {
@@ -27,8 +26,7 @@ const App = () => {
           <Route path="ferramentas" element={<Ferramentas />} />
           <Route path="*" element={<Err />} />
         </Routes>
-
-        <FJumbotron />
+        <Footer />
       </div>
     </BrowserRouter>
   );

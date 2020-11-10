@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Col, Image } from 'react-bootstrap';
+import { Card, Image } from 'react-bootstrap';
 
 const Quote = () => {
   return (
