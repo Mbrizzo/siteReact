@@ -1,7 +1,7 @@
 import React from 'react';
 import { Parallax } from 'react-materialize';
 
-const Paralax = (props) => {
+const Paralax = () => {
   return (
     <div>
       <Parallax
@@ -12,12 +12,7 @@ const Paralax = (props) => {
       />
       <div className="section white">
         <div className="row container">
-          <h2
-            className="header"
-            style={{ color: '#1a7fbd', fontWeight: 'bolder' }}
-          >
-            Projeto React
-          </h2>
+          <h2 className="header-parallax">Projeto React</h2>
           <h3
             className="grey-text text-darken-3 lighten-3"
             style={{ color: '', fontWeight: 'bolder' }}

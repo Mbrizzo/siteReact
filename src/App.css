@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
-
-
 .App {
-  text-align: center;
-  
+  text-align: center;  
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,27 +10,26 @@
   }
 }
 
+
+
 .logo {
   justify-content: left;
 }
 
-.depoimentos {}
+.header-parallax {
+  color: #1a7fbd;
+  font-weight: bolder;
+  text-align:center;
+}
 
 .cards {
   display: flex;
+  justify-content: space-between;
 }
-
 
 .fabio {
-  width: 50px;
-  
+  width: 50px;  
 }
-
-
-
-
-
-
 
 .App-header {
   background-color: #282c34;
@@ -63,3 +59,12 @@
   display: flex;
 }
 
+.footer {
+  background-color: #212121;
+}
+
+.footer  h3 {
+  color: #1a7fbd;
+  text-align:left;
+  
+}

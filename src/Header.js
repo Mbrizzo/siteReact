@@ -9,7 +9,7 @@ const Nav = () => {
       fixed="true"
       brand={
         <a className="brand-logo" href="/">
-          Logo
+          Projeto React
         </a>
       }
       id="mobile-nav"

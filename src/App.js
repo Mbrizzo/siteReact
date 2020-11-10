@@ -7,8 +7,9 @@ import Home from './Home';
 import Sobre from './Sobre';
 import Header from './Header';
 import Err from './components/Err';
-import Footer from './components/Footer';
+//import Footer from './components/Footer';
 import Contato from './Contato';
+import FJumbotron from './components/FJumbotron';
 
 const App = () => {
   return (
@@ -20,9 +21,11 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="sobre" element={<Sobre />} />
           <Route path="contato" element={<Contato />} />
+          <Route path="reserva" element={<Contato />} />
           <Route path="*" element={<Err />} />
         </Routes>
-        <Footer />
+
+        <FJumbotron />
       </div>
     </BrowserRouter>
   );

@@ -2,7 +2,6 @@ import React from 'react';
 import UncontrolledLottie from './components/UncontrolledLottie';
 import Parallax from './components/Parallax';
 import Cards from './components/Aviso';
-import Deck from './components/deck';
 import Kitchen from './components/Kitchen';
 import Quote from './components/Quote';
 
@@ -14,11 +13,13 @@ const Home = () => {
       <Cards />
       <h2>Ferramentas</h2>
       <UncontrolledLottie />
+      <hr></hr>
       <section className="cards">
-        <Deck />
         <Kitchen />
+
+        {<br></br>}
       </section>
-      <section className="depoimentos">
+      <section className="depoimentos" fixed="true">
         <Quote />
       </section>
     </div>
