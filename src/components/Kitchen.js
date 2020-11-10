@@ -35,7 +35,7 @@ const Kitchen = () => {
 
   const renderCard = (card, index) => {
     return (
-      <Card style={{ width: '18rem' }} key={index}>
+      <Card style={{ width: '18rem' }} key={index} className="box">
         <Card.Img
           variant="top"
           src="https://i.ibb.co/W6k9fW2/quizizz.png"
