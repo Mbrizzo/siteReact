@@ -30,7 +30,7 @@ const Quote = () => {
         <blockquote className="blockquote mb-0">
           <p>
             {' '}
-            "Eu ressucitei apenas para dizer que: 'este site Non ecziste'!!!".{' '}
+            "Eu ressuscitei apenas para dizer que: 'este site Non ecziste'!!!".{' '}
           </p>
           <footer className="blockquote-footer">
             Padre <cite title="Source Title">Quevedo</cite>
