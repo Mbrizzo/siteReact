@@ -27,11 +27,12 @@ export const Contato = () => {
             </Form.Label>
             <Form.Control as="textarea" rows={3} className="textoEmail" />
           </Form.Group>
-          <Button variant="danger" type="submit">
+          <Button variant="dark" type="submit">
             Enviar
           </Button>
         </Form>
       </div>
+      {<br></br>}
     </div>
   );
 };

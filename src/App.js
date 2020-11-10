@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter, Routes, Route, Linnk } from 'react-router-dom';
 import 'materialize-css/dist/css/materialize.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import Fab from './components/Fab';
 import Home from './Home';

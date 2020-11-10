@@ -1,19 +1,22 @@
 import React from 'react';
-import { Button, Icon, NavItem } from 'react-materialize';
+import { Button, Icon } from 'react-materialize';
+import { Link } from 'react-router-dom';
 
 export const Fab = () => {
   return (
     <div>
-      <Button
-        className="black"
-        fab={{
-          direction: 'left',
-        }}
-        floating
-        icon={<Icon>email</Icon>}
-        large
-        node="button"
-      ></Button>
+      <a href="/contato">
+        <Button
+          className="black"
+          fab={{
+            direction: 'left',
+          }}
+          floating
+          icon={<Icon>email</Icon>}
+          large
+          node="button"
+        ></Button>
+      </a>
     </div>
   );
 };
