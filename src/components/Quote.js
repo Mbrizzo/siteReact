@@ -7,7 +7,7 @@ const Quote = (props) => {
       <Card.Header style={{ color: '', fontWeight: 'bolder' }}>
         <h5> O que andam dizendo sobre nós </h5>
       </Card.Header>
-      <Card.Body>
+      <Card.Body className="primeiroQuote">
         <blockquote className="blockquote mb-0">
           <p>
             {' '}
@@ -24,7 +24,7 @@ const Quote = (props) => {
           />
         </blockquote>
       </Card.Body>
-      <Card.Body>
+      <Card.Body className="segundoQuote">
         <blockquote className="blockquote mb-0">
           <p>
             {' '}
@@ -36,11 +36,11 @@ const Quote = (props) => {
           <Image
             src="https://i.ibb.co/nR7mJMf/quevedo-transparente.png"
             roundedCircle
-            className="fabio"
+            className="padre"
           />
         </blockquote>
       </Card.Body>
-      <Card.Body>
+      <Card.Body className="terceiroQuote">
         <blockquote className="blockquote mb-0">
           <p> "É o básico né". </p>
           <footer className="blockquote-footer">
@@ -49,7 +49,7 @@ const Quote = (props) => {
           <Image
             src="https://i.ibb.co/KhPdB2s/b-sico.png"
             roundedCircle
-            className="fabio"
+            className="joao"
           />
         </blockquote>
       </Card.Body>
