@@ -46,7 +46,7 @@ const Kitchen = () => {
           <Card.Text>{card.text}</Card.Text>
         </Card.Body>
         <ListGroup className="list-group-flush">
-          <ListGroupItem>card.list</ListGroupItem>
+          <ListGroupItem>{card.list}</ListGroupItem>
         </ListGroup>
         <Card.Body>
           <Button variant="primary">Saiba Mais</Button>
