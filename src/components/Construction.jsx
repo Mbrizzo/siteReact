@@ -1,9 +1,9 @@
-// UncontrolledLottie.jsx
+// Construction.jsx
 import React, { Component } from 'react';
 import Lottie from 'react-lottie';
-import animationData from '../lotties/work.json';
+import animationData from '../lotties/pageConstruction.json';
 
-class UncontrolledLottie extends Component {
+class Construction extends Component {
   render() {
     const defaultOptions = {
       loop: true,
@@ -16,12 +16,10 @@ class UncontrolledLottie extends Component {
 
     return (
       <div>
-        <a href="/ferramentas">
-          <Lottie options={defaultOptions} height={300} width={300} />
-        </a>
+        <Lottie options={defaultOptions} height={500} width={500} />
       </div>
     );
   }
 }
 
-export default UncontrolledLottie;
+export default Construction;
