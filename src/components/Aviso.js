@@ -11,7 +11,9 @@ const Aviso = () => {
         a comunicação.
       </p>
       <p>
-        <Button variant="primary">Reservar</Button>
+        <a href="reserva">
+          <Button variant="success">Reservar</Button>{' '}
+        </a>
       </p>
     </Jumbotron>
   );

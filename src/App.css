@@ -1,22 +1,15 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 .App {
-  text-align: center;  
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.logo {
-  justify-content: left;
-}
-
-.cards {
-  display: inline-flex;
-  
 }
 
 .App-header {
@@ -41,28 +34,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.erro {
-  background-color: #212121;
-}
-
-.email {
-  max-width: 20rem;
-  
-}
-
-.textoEmail {
-  margin-left: 25rem; 
-  max-width: 50rem;
-}
-
-.footer {
-  background-color: #212121;
-}
-
-.footer  h3 {
-  color: #1a7fbd;
-  text-align:left;
-  
 }

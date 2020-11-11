@@ -1,3 +1,4 @@
 .box {
+    display: inline-flex;
     margin-left: 2.5rem;
 }
