@@ -10,7 +10,7 @@ const Nav = () => {
       alignLinks="right"
       fixed="true"
       brand={
-        <a className="brand-logo" href="/">
+        <a id="logo" className="brand-logo" href="/">
           Projeto React
         </a>
       }
