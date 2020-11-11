@@ -1,6 +1,8 @@
 .redesSociais {
   width: 80px;
-}
+  margin-left: 0.5rem;
+
+  }
 
 .web3 {
   color: #d71c27;
@@ -12,4 +14,5 @@
 
 .logo {
   width: 220px;
+  margin-left: 1px;
 }

@@ -2,6 +2,8 @@ import React from 'react';
 import { Footer } from 'react-materialize';
 import youtube from '../assets/ic_youtube.png';
 import facebook from '../assets/ic_facebook.png';
+import instagram from '../assets/ic_instagram.png';
+import twuitter from '../assets/ic_twuitter.png';
 import Logo from '../assets/logo.png';
 import './Footer.css';
 
@@ -39,6 +41,8 @@ const Deck = () => {
         <a className="grey-text text-lighten-4 right" href="sobre">
           <img src={youtube} alt="Alguma coisa" className="redesSociais" />
           <img src={facebook} alt="Alguma coisa" className="redesSociais" />
+          <img src={instagram} alt="Alguma coisa" className="redesSociais" />
+          <img src={twuitter} alt="Alguma coisa" className="redesSociais" />
         </a>
       }
     >
