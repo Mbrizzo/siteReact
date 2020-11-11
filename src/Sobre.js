@@ -1,9 +1,10 @@
 import React from 'react';
+import video from './assets/video.mp4';
 
 const Sobre = () => {
   return (
     <div>
-      <h1>Sobre</h1>
+      <video src={video} autoPlay="true"></video>
     </div>
   );
 };

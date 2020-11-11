@@ -35,7 +35,7 @@ const Deck = () => {
         </ul>
       }
       moreLinks={
-        <a className="grey-text text-lighten-4 right" href="#!">
+        <a className="grey-text text-lighten-4 right" href="sobre">
           <img src={youtube} alt="Alguma coisa" className="redesSociais" />
           <img src={facebook} alt="Alguma coisa" className="redesSociais" />
         </a>
