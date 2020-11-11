@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, Button, ListGroup, ListGroupItem } from 'react-bootstrap';
+import './Kitchen.css';
 
 const Kitchen = () => {
   const cardInfo = [

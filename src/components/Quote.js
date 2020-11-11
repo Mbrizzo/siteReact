@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, Image } from 'react-bootstrap';
+import './Quote.css';
 
 const Quote = () => {
   return (
@@ -51,7 +52,7 @@ const Quote = () => {
           <Image
             src="https://i.ibb.co/KhPdB2s/b-sico.png"
             roundedCircle
-            className="fabio"
+            className="joao"
           />
         </blockquote>
       </Card.Body>
