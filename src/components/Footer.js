@@ -2,6 +2,7 @@ import React from 'react';
 import { Footer } from 'react-materialize';
 import youtube from '../assets/ic_youtube.png';
 import facebook from '../assets/ic_facebook.png';
+import Logo from '../assets/logo.png';
 import './Footer.css';
 
 const Deck = () => {
@@ -41,7 +42,7 @@ const Deck = () => {
         </a>
       }
     >
-      <h4 className="footerTitle">Projeto React</h4>
+      <img alt="" src={Logo} className="logo"></img>
       <p className="web3">if (web3.prof == "fábio")</p>
     </Footer>
   );
