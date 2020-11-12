@@ -5,8 +5,17 @@
 }
 
 .text-parallax {
-  
   font-size: 40px;
+}
   
+.row.container{
+  margin: 0 auto !important;
+}
+
+div .section.white{
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+}
+
 }
 
