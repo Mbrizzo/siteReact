@@ -37,6 +37,9 @@ const Nav = () => {
       <NavItem id="navItem" href="contato">
         Contato
       </NavItem>
+      <NavItem id="navItem" href="testes" style={{ color: 'tomato' }}>
+        Testes
+      </NavItem>
     </Navbar>
   );
 };
