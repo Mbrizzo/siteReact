@@ -16,7 +16,6 @@ const Home = () => {
       <hr></hr>
       <section className="cards">
         <Kitchen />
-
         {<br></br>}
       </section>
       <section className="depoimentos" fixed="true">

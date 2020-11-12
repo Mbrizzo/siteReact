@@ -4,10 +4,11 @@ import youtube from '../assets/ic_youtube.png';
 import facebook from '../assets/ic_facebook.png';
 import instagram from '../assets/ic_instagram.png';
 import twuitter from '../assets/ic_twuitter.png';
+import './Footer.css';
 import Logo from '../assets/logo.png';
 import Logo1 from '../assets/logo1.png';
 import Logo2 from '../assets/logo2.png';
-import './Footer.css';
+import Logo3 from '../assets/logo3.png';
 
 const Deck = () => {
   return (
@@ -48,7 +49,7 @@ const Deck = () => {
         </a>
       }
     >
-      <img alt="" src={Logo} className="logo"></img>
+      <img alt="" src={Logo1}></img>
       <p className="web3">if (web3.prof == "fábio")</p>
     </Footer>
   );
