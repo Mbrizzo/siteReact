@@ -17,5 +17,12 @@ div .section.white{
   border-bottom: 2px solid #ccc;
 }
 
-}
+@media (max-width: 600px) {
+  .text-parallax {
+    font-size: 25px;
+  }
 
+  .parallax img{
+    width: 330%;
+  }
+}
