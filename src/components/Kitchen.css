@@ -1,4 +1,10 @@
 .box {
     display: inline-flex;
-    margin-left: 2.5rem;
+    margin: 15px;
+}
+
+@media (max-width: 450px) {
+    .box {
+        width: 80vw !important;
+    }
 }
