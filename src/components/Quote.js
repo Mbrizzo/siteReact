@@ -6,7 +6,11 @@ const Quote = () => {
   return (
     <Card>
       <Card.Header
-        style={{ color: '', fontWeight: 'bolder', backgroundColor: '#263238' }}
+        style={{
+          color: '',
+          fontWeight: 'bolder',
+          backgroundColor: '#263238',
+        }}
       >
         <h5 style={{ color: '#f5f5f5' }}> O que andam dizendo sobre nós </h5>
       </Card.Header>
@@ -44,7 +48,7 @@ const Quote = () => {
         </blockquote>
       </Card.Body>
       <Card.Body className="terceiroQuote">
-        <blockquote className="blockquote mb-0">
+        <blockquote className="blockquote3">
           <p> "É o básico né..." </p>
           <footer className="blockquote-footer">
             Aluno <cite title="Source Title">6º Período</cite>

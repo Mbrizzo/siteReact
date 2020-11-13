@@ -15,7 +15,6 @@ const Deck = () => {
     <Footer
       className="footer"
       style={{ background: '#212121' }}
-      copyrights="Projeto React 2020 Copyright"
       links={
         <ul>
           <li>
@@ -42,15 +41,18 @@ const Deck = () => {
       }
       moreLinks={
         <a className="grey-text text-lighten-4 right" href="sobre">
-          <img src={youtube} alt="Alguma coisa" className="redesSociais" />
-          <img src={facebook} alt="Alguma coisa" className="redesSociais" />
-          <img src={instagram} alt="Alguma coisa" className="redesSociais" />
-          <img src={twuitter} alt="Alguma coisa" className="redesSociais" />
+          <div className="redes">
+            <img src={youtube} alt="Alguma coisa" className="redesSociais" />
+            <img src={facebook} alt="Alguma coisa" className="redesSociais" />
+            <img src={instagram} alt="Alguma coisa" className="redesSociais" />
+            <img src={twuitter} alt="Alguma coisa" className="redesSociais" />
+          </div>
         </a>
       }
     >
       <img alt="" src={Logo1}></img>
       <p className="web3">if (web3.prof == "fábio")</p>
+      Projeto React 2020 Copyright
     </Footer>
   );
 };
