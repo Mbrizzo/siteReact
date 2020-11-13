@@ -4,10 +4,12 @@ import Parallax from './components/Parallax';
 import Cards from './components/Aviso';
 import Kitchen from './components/Kitchen';
 import Quote from './components/Quote';
+import Head from './Head';
 
 const Home = () => {
   return (
     <Fragment>
+      <Head title="Home" description="Essa é a página principal" />
       <Parallax />
       {<br></br>}
       <Cards />
