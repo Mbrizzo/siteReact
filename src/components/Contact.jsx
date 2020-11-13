@@ -15,9 +15,9 @@ class Contact extends Component {
     };
 
     return (
-      <div>
+      <>
         <Lottie options={defaultOptions} height={200} width={200} />
-      </div>
+      </>
     );
   }
 }

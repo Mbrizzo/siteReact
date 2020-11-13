@@ -4,7 +4,7 @@ import './Parallax.css';
 
 const Paralax = () => {
   return (
-    <div>
+    <>
       <Parallax
         image={<img alt="" src="https://i.ibb.co/0KhTkTw/3784896.png" />}
         options={{
@@ -26,7 +26,7 @@ const Paralax = () => {
           responsiveThreshold: 0,
         }}
       />
-    </div>
+    </>
   );
 };
 

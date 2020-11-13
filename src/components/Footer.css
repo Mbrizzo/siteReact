@@ -1,6 +1,6 @@
-.redes {
-  margin-bottom: 50px;
-}
+.orange-text  {
+  font-size: 20px;
+  }
 
 .redesSociais {
   width: 80px;
@@ -12,8 +12,8 @@
   color: #d71c27;
 }
 
-.footerTitle {
-  color: #4b69b1;
+.copy {
+  text-align: center;
 }
 
 
