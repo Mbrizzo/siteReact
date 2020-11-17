@@ -1,4 +1,7 @@
 .box {
     display: inline-flex;
-    margin-left: 2.5rem;
+    margin: 15px;
+    width: 300px !important;
+    
+    
 }

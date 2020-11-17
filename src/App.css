@@ -35,3 +35,13 @@
     transform: rotate(360deg);
   }
 }
+
+.brand {
+  width: 50px;
+}
+
+.divCard {
+  margin: auto;
+}
+
+

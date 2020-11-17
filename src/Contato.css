@@ -1,9 +1,9 @@
 .email {
   max-width: 20rem;
-  
+  margin: 0 auto !important;
 }
 
 .textoEmail {
-  margin-left: 25rem; 
-  max-width: 50rem;
+  max-width: 40rem;
+  margin: 0 auto;
 }

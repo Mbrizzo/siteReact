@@ -2,10 +2,12 @@ import React from 'react';
 import Contact from './components/Contact';
 import { Form, Button } from 'react-bootstrap';
 import './Contato.css';
+import Head from './Head';
 
 export const Contato = () => {
   return (
-    <div>
+    <>
+      <Head title="Contato" description="Essa é a página Contato" />
       <Contact />
       <div className="contato">
         <Form>
@@ -34,7 +36,7 @@ export const Contato = () => {
         </Form>
       </div>
       {<br></br>}
-    </div>
+    </>
   );
 };
 

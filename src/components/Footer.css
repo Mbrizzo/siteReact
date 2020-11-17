@@ -1,3 +1,7 @@
+.orange-text  {
+  font-size: 20px;
+  }
+
 .redesSociais {
   width: 80px;
   margin-left: 0.5rem;
@@ -8,11 +12,8 @@
   color: #d71c27;
 }
 
-.footerTitle {
-  color: #4b69b1;
+.copy {
+  text-align: center;
 }
 
-.logo {
-  width: 240px;
-  margin-left: 1px;
-}
+

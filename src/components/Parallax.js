@@ -4,7 +4,7 @@ import './Parallax.css';
 
 const Paralax = () => {
   return (
-    <div>
+    <>
       <Parallax
         image={<img alt="" src="https://i.ibb.co/0KhTkTw/3784896.png" />}
         options={{
@@ -13,8 +13,10 @@ const Paralax = () => {
       />
       <div className="section white">
         <div className="row container">
-          <h1 className="header-parallax">Projeto React</h1>
-          <h2 className="text-parallax">
+          <h1 className="header-parallax" style={{ marginTop: '2rem' }}>
+            {''}
+          </h1>
+          <h2 className="text-parallax" style={{ marginBottom: '3rem' }}>
             Oferecendo as ferramentas e dicas que professores e famílias
             precisam para ajudar os alunos a continuar aprendendo.
           </h2>
@@ -26,7 +28,7 @@ const Paralax = () => {
           responsiveThreshold: 0,
         }}
       />
-    </div>
+    </>
   );
 };
 

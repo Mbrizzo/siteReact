@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import { Navbar, Icon, NavItem } from 'react-materialize';
+import Logo1 from './assets/logo1.png';
 
 const Nav = () => {
   return (
@@ -10,7 +11,12 @@ const Nav = () => {
       alignLinks="right"
       fixed="true"
       brand={
-        <a id="logo" className="brand-logo" href="/">
+        <a
+          id="logo"
+          className="brand-logo"
+          href="/"
+          style={{ color: '#2ab6fd' }}
+        >
           Projeto React
         </a>
       }
@@ -38,7 +44,7 @@ const Nav = () => {
         Contato
       </NavItem>
       <NavItem id="navItem" href="testes" style={{ color: 'tomato' }}>
-        Testes
+        TESTES
       </NavItem>
       <NavItem id="navItem" href="ferramentas">
         Ferramentas

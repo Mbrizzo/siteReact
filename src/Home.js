@@ -1,28 +1,24 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import UncontrolledLottie from './components/UncontrolledLottie';
 import Parallax from './components/Parallax';
 import Cards from './components/Aviso';
 import Kitchen from './components/Kitchen';
 import Quote from './components/Quote';
+import Head from './Head';
 
 const Home = () => {
   return (
-    <div>
+    <Fragment>
+      <Head title="Home" description="Essa é a página principal" />
       <Parallax />
       {<br></br>}
       <Cards />
       <h2>Ferramentas</h2>
       <UncontrolledLottie />
       <hr></hr>
-      <section className="cards">
-        <Kitchen />
-
-        {<br></br>}
-      </section>
-      <section className="depoimentos" fixed="true">
-        <Quote />
-      </section>
-    </div>
+      <Kitchen />
+      <Quote />
+    </Fragment>
   );
 };
 

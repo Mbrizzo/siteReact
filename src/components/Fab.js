@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export const Fab = () => {
   return (
-    <div>
+    <>
       <a href="/contato">
         <Button
           className="black"
@@ -17,7 +17,7 @@ export const Fab = () => {
           node="button"
         ></Button>
       </a>
-    </div>
+    </>
   );
 };
 
