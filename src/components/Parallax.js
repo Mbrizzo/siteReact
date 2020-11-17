@@ -11,7 +11,7 @@ const Paralax = () => {
           responsiveThreshold: 0,
         }}
       />
-      <div className="section white">
+      <div className="sectionWhite">
         <div className="row container">
           <h1 className="header-parallax" style={{ marginTop: '2rem' }}>
             {''}
