@@ -23,7 +23,7 @@ const Paralax = () => {
         </div>
       </div>
       <Parallax
-        image={<img alt="" src="https://i.ibb.co/LCYkvDr/zuera.png" />}
+        image={<img alt="" src="https://i.ibb.co/dPcQmXr/1263.png" />}
         options={{
           responsiveThreshold: 0,
         }}
