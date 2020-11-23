@@ -35,11 +35,13 @@ class Ferramentas extends React.Component {
       <div className="areaFerramentas">
         {this.state.ferramentas.map((ferramenta) => (
           <Card style={{ width: '18rem' }} key={ferramenta.id} className="box">
-            <Card.Img variant="top" src={ferramenta.image} />
+            <Card.Img variant="top" require src={ferramenta.image} />
             <Card.Body>
               <Card.Title>{ferramenta.name}</Card.Title>
               <Card.Text>{ferramenta.description}</Card.Text>
-              <Button variant="dark">Saiba Mais</Button>
+              <a href={ferramenta.link} target="_blank">
+                <Button variant="dark">Saiba Mais</Button>
+              </a>
             </Card.Body>
           </Card>
         ))}
