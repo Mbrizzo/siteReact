@@ -40,6 +40,7 @@ const Kitchen = () => {
         <Card.Img
           variant="top"
           src="https://i.ibb.co/W6k9fW2/quizizz.png"
+          // eslint-disable-next-line react/jsx-no-duplicate-props
           src={card.image}
         />
         <Card.Body>
