@@ -4,12 +4,19 @@ import Head from './Head';
 
 export const Testes = () => {
   return (
-    <div className="palcoTestes">
-      <Head
-        title="Projeto React - Testes"
-        description="Essa é a uma página de testes. Será removida dia 27/11... ou não... na verdade só Deus sabe!"
-      />
-    </div>
+    <>
+      <div className="palcoTestes">
+        <Head title="Testes" description="Essa é a página de testes" />
+      </div>
+      <h5>
+        Essa página será removida dia 27/11... ou talvez não... na verdade só
+        Deus sabe!!! Mas se nem eu me importo com isso, imagina você. Portanto
+        não se preocupe mais com isso... apenas contemple, assombrado, essa
+        magnífica página de testes enquanto medita sobre sua vida ou os
+        mistérios do mundo ou quem sabe sobre seu cachorro mesmo que não tenha
+        um.
+      </h5>
+    </>
   );
 };
 

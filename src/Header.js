@@ -54,7 +54,7 @@ const Nav = () => {
       <NavItem id="navItem" href="ferramentas" style={{ color: '#82f7ff' }}>
         Ferramentas
       </NavItem>
-      <NavItem id="navItem" href="teste" style={{ color: '#66bb6a' }}>
+      <NavItem id="navItem" href="signup" style={{ color: '#66bb6a' }}>
         SignUp
       </NavItem>
     </Navbar>
