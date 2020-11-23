@@ -1,7 +1,6 @@
 import React from 'react';
 import axios from 'axios';
 import './Ferramentas.css';
-
 import { Card, Button } from 'react-bootstrap';
 
 class Ferramentas extends React.Component {
@@ -35,7 +34,7 @@ class Ferramentas extends React.Component {
       <div className="areaFerramentas">
         {this.state.ferramentas.map((ferramenta) => (
           <Card style={{ width: '18rem' }} key={ferramenta.id} className="box">
-            <Card.Img variant="top" require src={ferramenta.image} />
+            <Card.Img variant="top" require src={ferramenta.image.url} />
             <Card.Body>
               <Card.Title>{ferramenta.name}</Card.Title>
               <Card.Text>{ferramenta.description}</Card.Text>
