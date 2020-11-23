@@ -12,6 +12,7 @@ import Err from './components/Err';
 import Footer from './components/Footer';
 import Contato from './Contato';
 import Ferramentas from './Ferramentas';
+import Testes from './Testes';
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="contato" element={<Contato />} />
           <Route path="reserva" element={<Reservar />} />
           <Route path="ferramentas" element={<Ferramentas />} />
+          <Route path="teste" element={<Testes />} />
           <Route path="*" element={<Err />} />
         </Routes>
         <Footer />

@@ -18,7 +18,7 @@ export const Contato = () => {
             <Form.Control
               className="email"
               type="email"
-              placeholder="Enter email"
+              placeholder="Digite seu email"
             />
             <Form.Text className="text-muted">
               Nós nunca iremos compartilhar seu E-mail.

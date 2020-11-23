@@ -15,9 +15,9 @@ const Nav = () => {
           id="logo"
           className="brand-logo"
           href="/"
-          style={{ color: '#2ab6fd' }}
+          style={{ color: '#2ab6fd', marginLeft: -50, textDecoration: 'none' }}
         >
-          Projeto React
+          PROJETO REACT
         </a>
       }
       id="mobile-nav"
@@ -34,17 +34,28 @@ const Nav = () => {
         preventScrolling: true,
       }}
     >
-      <NavItem id="navItem" href="sobre">
+      <NavItem id="navItem" href="teste" style={{ color: '#d71c27' }}>
+        Teste
+      </NavItem>
+      <NavItem id="navItem" href="sobre" style={{ color: '#6d6d6d' }}>
         Sobre
       </NavItem>
-      <NavItem id="navItem" href="https://github.com/Mbrizzo/siteReact">
-        Git
+      <NavItem
+        id="navItem"
+        href="https://github.com/Mbrizzo/siteReact"
+        target="_blank"
+        style={{ color: '#6d6d6d' }}
+      >
+        GitHub
       </NavItem>
-      <NavItem id="navItem" href="contato">
+      <NavItem id="navItem" href="contato" style={{ color: '#6d6d6d' }}>
         Contato
       </NavItem>
-      <NavItem id="navItem" href="ferramentas" style={{ color: 'tomato' }}>
+      <NavItem id="navItem" href="ferramentas" style={{ color: '#82f7ff' }}>
         Ferramentas
+      </NavItem>
+      <NavItem id="navItem" href="teste" style={{ color: '#66bb6a' }}>
+        SignUp
       </NavItem>
     </Navbar>
   );

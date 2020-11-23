@@ -1,13 +1,12 @@
 .areaFerramentas {
-  padding: 5rem;
-  
+  padding: 5rem;  
+}
+
+.cardImg {
+  height: 150px;
 }
 
 .box { 
   margin-left: 2rem;
-  box-shadow: 5px 2.5px 10px black;
-}
-
-#search {
-  margin-top: 10rem;
+  box-shadow: 5px 2.5px 10px black;  
 }
