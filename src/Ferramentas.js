@@ -35,7 +35,9 @@ class Ferramentas extends React.Component {
         {this.state.ferramentas.map((ferramenta) => (
           <Card style={{ width: '18rem' }} key={ferramenta.id} className="box">
             <Card.Img variant="top" src={ferramenta.src} className="cardImg" />
-            <Card.Body>
+            <Card.Body
+              style={{ backgroundColor: ferramenta.color, fontWeight: 'bold' }}
+            >
               <Card.Title>{ferramenta.name}</Card.Title>
               <Card.Text>{ferramenta.description}</Card.Text>
               <a href={ferramenta.link} target="_blank">
