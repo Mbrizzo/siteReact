@@ -36,7 +36,7 @@ const Kitchen = () => {
 
   const renderCard = (card, index) => {
     return (
-      <Card style={{ width: '18rem' }} key={index} className="box">
+      <Card key={index} className="box">
         <Card.Img
           variant="top"
           src="https://i.ibb.co/W6k9fW2/quizizz.png"
@@ -50,7 +50,7 @@ const Kitchen = () => {
         <ListGroup className="list-group-flush">
           <ListGroupItem>{card.list}</ListGroupItem>
         </ListGroup>
-        <Card.Body>
+        <Card.Body style={{ textAlign: 'center' }}>
           <Button variant="dark">Saiba Mais</Button>
         </Card.Body>
       </Card>

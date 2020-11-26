@@ -13,9 +13,7 @@ const Paralax = () => {
       />
       <div className="sectionWhite">
         <div className="row container">
-          <h1 className="header-parallax" style={{ marginTop: '2rem' }}>
-            {''}
-          </h1>
+          <h1 className="parallaxHeader">{''}</h1>
           <h2 className="text-parallax" style={{ marginBottom: '3rem' }}>
             Oferecendo as ferramentas e dicas que professores e famílias
             precisam para ajudar os alunos a continuar aprendendo.

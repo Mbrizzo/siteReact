@@ -1,7 +1,5 @@
 .box {
     display: inline-flex;
     margin: 15px;
-    width: 300px !important;
-    
-    
+    width: 300px !important;    
 }

@@ -10,13 +10,14 @@
 .box { 
   margin-left: 2rem;
   box-shadow: 5px 2.5px 10px black;
-  margin-top: 5rem; 
+  margin-top: 5rem;
 }
 
 .campoBusca {
-  margin-top: 1rem;
+  margin-top: 3rem;
   background-color: bisque;
   align-content:center;
+  border: none;
   
 }
 

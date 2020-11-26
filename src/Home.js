@@ -13,7 +13,7 @@ const Home = () => {
       <Parallax />
       {<br></br>}
       <Cards />
-      <h2>Ferramentas</h2>
+      <h2 style={{ textAlign: 'center' }}>Ferramentas</h2>
       <UncontrolledLottie />
       <hr></hr>
       <Kitchen />
