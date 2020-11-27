@@ -6,7 +6,6 @@ import instagram from '../assets/ic_instagram.png';
 import twuitter from '../assets/ic_twuitter.png';
 import './Footer.css';
 import Logo1 from '../assets/logo1.png';
-import Logo3 from '../assets/logo3.png';
 
 const Deck = () => {
   return (
