@@ -61,7 +61,8 @@ class Ferramentas extends React.Component {
             </InputGroup>
           </Col>
         </Form>
-        <React.Suspense fallback={<Load />}></React.Suspense>
+        <React.Suspense fallback={Load}></React.Suspense>
+
         {this.state.ferramentas.map((ferramenta) => (
           <Card style={{ width: '18rem' }} key={ferramenta.id} className="box">
             <Card.Img variant="top" src={ferramenta.src} className="cardImg" />
