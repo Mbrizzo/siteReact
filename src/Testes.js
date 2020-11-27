@@ -2,7 +2,6 @@ import React from 'react';
 import './Testes.css';
 import Head from './Head';
 import './Ferramentas.css';
-
 import './Testes.css';
 
 export const Testes = () => {
