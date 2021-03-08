@@ -3,12 +3,12 @@
 }
 
 .cardImg {
-  height: 150px;
+  height: 140px;
 }
 
 .box {
   margin-left: 2rem;
-  box-shadow: 5px 2.5px 10px black;
+  box-shadow: 3px 2.5px 10px black;
   margin-top: 5rem;
 }
 
@@ -21,3 +21,5 @@
 .lupa {
   width: 26px;
 }
+
+/* Change Defaults
