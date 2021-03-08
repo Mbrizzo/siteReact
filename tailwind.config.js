@@ -7,3 +7,5 @@ export const variants = {
   extend: {},
 };
 export const plugins = [];
+
+// Códigos revisados e upados.
